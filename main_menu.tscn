@@ -1,0 +1,157 @@
+[gd_scene load_steps=5 format=3 uid="uid://b3jg1xbsjrcu1"]
+
+[ext_resource type="Script" path="res://Main_menu.gd" id="1_lx7ul"]
+
+[sub_resource type="Animation" id="Animation_j73nf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(395, -373)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("exit:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(376, -141)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("play:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(376, -251)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Label2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(395, -467)]
+}
+
+[sub_resource type="Animation" id="Animation_y0afc"]
+resource_name = "new_animation"
+length = 2.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0333333, 0.0666667, 0.1, 0.133333, 0.166667, 0.2, 0.233333, 0.266667, 0.3, 0.333333, 0.366667, 0.4, 0.433333, 0.466667, 0.5, 0.533333, 0.566667, 0.6, 0.633333, 0.666667, 0.7, 0.733333, 0.766667, 0.8, 0.833333, 0.866667, 0.9, 0.933333, 0.966667, 1, 1.03333, 1.06667, 1.1, 1.13333, 1.16667, 1.2, 1.23333, 1.26667, 1.3, 1.33333, 1.36667, 1.4, 1.43333, 1.46667, 1.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(395, -373), Vector2(395, -372.986), Vector2(395, -372.55), Vector2(395, -369.58), Vector2(395, -358.587), Vector2(395, -329.016), Vector2(395, -263.555), Vector2(395, -136.446), Vector2(395, 58.446), Vector2(395, 185.555), Vector2(395, 251.016), Vector2(395, 280.587), Vector2(395, 291.58), Vector2(395, 294.55), Vector2(395, 294.986), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295), Vector2(395, 295.01), Vector2(395, 295.326), Vector2(395, 297.478), Vector2(395, 305.443), Vector2(395, 326.868), Vector2(395, 374.298), Vector2(395, 466.395), Vector2(395, 607.604), Vector2(395, 699.701), Vector2(395, 747.132), Vector2(395, 768.557), Vector2(395, 776.522), Vector2(395, 778.674), Vector2(395, 778.99), Vector2(395, 779)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("exit:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(2, 2.03333, 2.06667, 2.1, 2.13333, 2.16667, 2.2, 2.23333, 2.26667, 2.3, 2.33333, 2.36667, 2.4, 2.43333, 2.46667, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(376, -141), Vector2(376, -140.989), Vector2(376, -140.637), Vector2(376, -138.24), Vector2(376, -129.371), Vector2(376, -105.51), Vector2(376, -52.6904), Vector2(376, 49.8718), Vector2(376, 207.127), Vector2(376, 309.69), Vector2(376, 362.51), Vector2(376, 386.371), Vector2(376, 395.24), Vector2(376, 397.637), Vector2(376, 397.989), Vector2(376, 398)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("play:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(2.1, 2.13333, 2.16667, 2.2, 2.23333, 2.26667, 2.3, 2.33333, 2.36667, 2.4, 2.43333, 2.46667, 2.5, 2.53333, 2.56667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(376, -251), Vector2(376, -250.985), Vector2(376, -250.513), Vector2(376, -247.299), Vector2(376, -235.403), Vector2(376, -203.401), Vector2(376, -132.558), Vector2(376, 4.99992), Vector2(376, 142.558), Vector2(376, 213.401), Vector2(376, 245.403), Vector2(376, 257.299), Vector2(376, 260.513), Vector2(376, 260.985), Vector2(376, 261)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Label2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(2.2, 2.23333, 2.26667, 2.3, 2.33333, 2.36667, 2.4, 2.43333, 2.46667, 2.5, 2.53333, 2.56667, 2.6, 2.63333, 2.66667, 2.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(395, -467), Vector2(395, -466.988), Vector2(395, -466.618), Vector2(395, -464.102), Vector2(395, -454.788), Vector2(395, -429.733), Vector2(395, -374.267), Vector2(395, -266.566), Vector2(395, -101.433), Vector2(395, 6.2666), Vector2(395, 61.7325), Vector2(395, 86.7882), Vector2(395, 96.1021), Vector2(395, 98.6183), Vector2(395, 98.9881), Vector2(395, 99)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7dmxk"]
+_data = {
+"RESET": SubResource("Animation_j73nf"),
+"new_animation": SubResource("Animation_y0afc")
+}
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_lx7ul")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 395.0
+offset_top = -373.0
+offset_right = 720.0
+offset_bottom = -304.0
+theme_override_font_sizes/font_size = 50
+text = "Fishing Game"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 395.0
+offset_top = -467.0
+offset_right = 720.0
+offset_bottom = -398.0
+theme_override_font_sizes/font_size = 50
+text = "Fishing Game"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_7dmxk")
+}
+autoplay = "new_animation"
+
+[node name="play" type="Button" parent="."]
+offset_left = 376.0
+offset_top = -251.0
+offset_right = 729.0
+offset_bottom = -174.0
+theme_override_font_sizes/font_size = 50
+text = "play"
+
+[node name="exit" type="Button" parent="."]
+offset_left = 376.0
+offset_top = -141.0
+offset_right = 729.0
+offset_bottom = -64.0
+theme_override_font_sizes/font_size = 50
+text = "exit
+"
+
+[connection signal="pressed" from="play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]

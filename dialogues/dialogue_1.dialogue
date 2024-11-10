@@ -1,0 +1,8 @@
+~ this_is_a_node_title
+Player: Huh, fish on the ground???
+Fish: yes
+- but how are you alive
+	fish: [wave amp=25 freq=5]because i want[/wave]
+- how?
+	fish: why do you need to know? [speed=0.2][shake rate=50 level=10]You aren't fish...[/shake]
+=> END

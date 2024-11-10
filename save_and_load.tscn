@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2teywvaev1xa"]
+
+[ext_resource type="Script" path="res://save_and_load.gd" id="1_vd25h"]
+
+[node name="Save_and_load" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vd25h")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Save" type="Button" parent="CanvasLayer"]
+offset_left = 964.0
+offset_top = 15.0
+offset_right = 1119.0
+offset_bottom = 56.0
+text = "Save
+"
+
+[node name="Load" type="Button" parent="CanvasLayer"]
+offset_left = 964.0
+offset_top = 79.0
+offset_right = 1119.0
+offset_bottom = 120.0
+text = "Load
+"
+
+[connection signal="pressed" from="CanvasLayer/Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="CanvasLayer/Load" to="." method="_on_load_pressed"]
